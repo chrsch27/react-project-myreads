@@ -12,7 +12,6 @@ class Bookshelf extends Component{
     
   
     render() {
-        console.log(this.props.title, this.props.selectedBooks)
         return (
             <div className="bookshelf">
                 <h2 className="bookshelf-title">{this.props.title}</h2>
